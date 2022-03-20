@@ -1,0 +1,12 @@
+{
+  "workExperience": {
+    "americanExpress": {
+      "name": "American Express",
+      "description": "Developed several reusable UI components with full comprehensive unit tests that have been implemented in several applications, saving time for other developers and expediting delivery schedules for multiple development teams"
+    },
+    "uOfA": {
+      "name": "University of Arizona",
+      "description": "Developed innovative, valid, and reliable research methods relevant to projects conducted in lab to allow for faster data procession; and trained new undergraduate students on those methods. In addition to this I also conducted statistical analysis using R, Python, SQL, and Tableau to determine, understand, and visualize relationships between variables/parameters of interest"
+    }
+  }
+}
