@@ -1,15 +1,23 @@
 import PropTypes from "prop-types";
 
-function WorkExperience({ companyName, description }) {
+function WorkExperience({ companyLogo, companyName, description }) {
   return (
-    <div className="work-experience">
-      <h3>{companyName}</h3>
-      <p>{description}</p>
+    <div id="work-experience">
+      <div class="employment-section">
+        <div class="logo-container">
+          <img src={companyLogo} alt="company-logo" class="resize"></img>
+        </div>
+        <div class="employment-text">
+          <h3>{companyName}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
   );
 }
 
 WorkExperience.propTypes = {
+  companyLogo: PropTypes.string,
   companyName: PropTypes.string,
   description: PropTypes.string
 };
