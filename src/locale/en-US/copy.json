@@ -3,12 +3,14 @@
     "americanExpress": {
       "logoUrl": "https://s1.q4cdn.com/692158879/files/images/brand_imagery/AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png",
       "name": "American Express",
-      "description": "Serve as an active member of an agile software development team; contributing to feature development by completing user stories via writing new/improving on existing code, creating/updating documentation, participating in code reviews, etc. Developed several reusable UI components with full comprehensive unit tests that have been implemented in several applications, saving time for other developers and expediting delivery schedules for multiple development teams"
+      "description": "Serve as an active member of an agile software development team; contributing to feature development by completing user stories via writing new/improving on existing code, creating/updating documentation, participating in code reviews, etc. Developed several reusable UI components with full comprehensive unit tests that have been implemented in several applications, saving time for other developers and expediting delivery schedules for multiple development teams",
+      "tenure": "August 2019 - Present"
     },
     "uOfA": {
       "logoUrl": "https://phoenixmed.arizona.edu/sites/default/files/campus/marcomm/brand/master-logo/10-ua-vertical-white/ua_rev_stack_rgb_white.png",
       "name": "University of Arizona",
-      "description": "Developed innovative, valid, and reliable research methods relevant to projects conducted in lab to allow for faster data procession; and trained new undergraduate students on those methods. In addition to this I also conducted statistical analysis using R, Python, SQL, and Tableau to determine, understand, and visualize relationships between variables/parameters of interest"
+      "description": "Developed innovative, valid, and reliable research methods relevant to projects conducted in lab to allow for faster data procession; and trained new undergraduate students on those methods. In addition to this I also conducted statistical analysis using R, Python, SQL, and Tableau to determine, understand, and visualize relationships between variables/parameters of interest",
+      "tenure": "April 2017 - May 2019"
     }
   }
 }

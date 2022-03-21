@@ -1,15 +1,32 @@
 .App {
-  background-color: #37475a;
+  background-color: #131921;
+  max-width: 100%;
+  min-height: 100vh;
 
-  #header {
+  .header-grid {
+    width: inherit;
+  }
+  .header {
     background-color: #37475a;
-    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     color: white;
     text-align: center;
+    padding: 1rem;
+    align-items: center;
+
+    h1 {
+      margin: auto;
+    }
+
+    h3 {
+      margin: auto;
+    }
+
+    h4 {
+      margin: auto;
+    }
 
     .link-row a {
       color: white;
@@ -21,12 +38,47 @@
     }
   }
 
+  @media (min-width: 1280px) {
+    .header {
+      overflow: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 2rem;
+
+      h1 {
+        margin: 0rem;
+      }
+
+      h3 {
+        margin: 1rem;
+      }
+
+      h4 {
+        margin: 2rem;
+      }
+    }
+  }
+
+  #about-me {
+    color: white;
+    background-color: #131921;
+  }
+
+  .about-me-header {
+    padding: 1rem;
+    text-align: left;
+  }
+
   #work-experience-header {
     background-color: #131921;
     color: white;
     padding: 1rem;
-    margin: -1rem;
-    text-align: center;
+    margin-bottom: -1rem;
+    text-align: left;
   }
 
   #work-experience {
@@ -40,39 +92,29 @@
       margin: auto;
       max-width: 95%;
 
+      .logo-container {
+        padding: 1rem;
+      }
+
       .employment-text {
         flex-direction: column;
+        padding: 1rem;
 
-        p {
-          // margin-bottom: 0;
+        h5 {
+          margin: 0;
         }
       }
     }
 
     .resize {
-      width: 10em;
-      height: 10em;
+      width: 8em;
+      height: 8em;
     }
-  }
-}
 
-// can remove all react logo css later
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    @media (max-width: 629px) {
+      #company-logo-img {
+        display: none;
+      }
+    }
   }
 }
