@@ -6,6 +6,10 @@ import ArticleIcon from "@mui/icons-material/Article";
 function Header() {
   return (
     <header id="header" class="header">
+      <img
+        src="https://media-exp1.licdn.com/dms/image/C5603AQHIJSWtsJAAtQ/profile-displayphoto-shrink_400_400/0/1566493725771?e=1653523200&v=beta&t=pJR7Y1PALx7gZ4jZKxpA2bFz6vTW6cq33f_DFjBKou4"
+        class="avatar"
+      />
       <h1>Connor Smith</h1>
       <h3>Software Engineer</h3>
       <h4>New York, NY</h4>
@@ -26,6 +30,7 @@ function Header() {
           <GitHubIcon />
         </a>
       </div>
+      <div class="technical-skills"></div>
     </header>
   );
 }

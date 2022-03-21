@@ -1,6 +1,12 @@
 import PropTypes from "prop-types";
 
-function WorkExperience({ companyLogo, companyName, description, tenure }) {
+function WorkExperience({
+  companyLogo,
+  companyName,
+  description,
+  position,
+  tenure
+}) {
   return (
     <div id="work-experience">
       <div class="employment-section">
@@ -14,6 +20,7 @@ function WorkExperience({ companyLogo, companyName, description, tenure }) {
         </div>
         <div class="employment-text">
           <h3>{companyName}</h3>
+          <h4>{position}</h4>
           <h5>{tenure}</h5>
           <p>{description}</p>
         </div>
@@ -26,6 +33,7 @@ WorkExperience.propTypes = {
   companyLogo: PropTypes.string,
   companyName: PropTypes.string,
   description: PropTypes.string,
+  position: PropTypes.string,
   tenure: PropTypes.string
 };
 

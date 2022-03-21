@@ -1,7 +1,8 @@
-// import Button from "@mui/material/Button";
+import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
 
 import "@fontsource/roboto";
+import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
 
@@ -9,7 +10,8 @@ import "./App.scss";
 import * as applicationText from "./locale/en-US/copy.json";
 
 const {
-  workExperience: { americanExpress, uOfA }
+  workExperience: { americanExpress, uOfA },
+  aboutMe
 } = applicationText;
 
 function App() {
@@ -19,13 +21,13 @@ function App() {
         <Header />
       </Grid>
       <Grid item lg={8} sm={12}>
-        <section id="about-me">
-          <div>
-            <h2 class="about-me-header">About Me</h2>
-          </div>
-        </section>
+        <AboutMe
+          header={aboutMe.header}
+          firstParagraph={aboutMe.firstParagraph}
+          secondParagraph={aboutMe.secondParagraph}
+        />
       </Grid>
-
+      <Divider light />
       <Grid item sm={12} lg={9}>
         <section>
           <h2 id="work-experience-header">Work Experience</h2>
@@ -33,12 +35,14 @@ function App() {
             companyLogo={americanExpress.logoUrl}
             companyName={americanExpress.name}
             description={americanExpress.description}
+            position={americanExpress.position}
             tenure={americanExpress.tenure}
           />
           <WorkExperience
             companyLogo={uOfA.logoUrl}
             companyName={uOfA.name}
             description={uOfA.description}
+            position={uOfA.position}
             tenure={uOfA.tenure}
           />
         </section>

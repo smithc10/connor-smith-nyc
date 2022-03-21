@@ -16,6 +16,10 @@
     padding: 1rem;
     align-items: center;
 
+    .avatar {
+      display: none;
+    }
+
     h1 {
       margin: auto;
     }
@@ -47,18 +51,25 @@
       justify-content: center;
       flex-direction: column;
       min-height: 100vh;
-      padding: 2rem;
+      padding: 0rem;
+      max-width: 25%;
+
+      .avatar {
+        display: flex;
+        border-radius: 50%;
+        width: 65%;
+      }
 
       h1 {
-        margin: 0rem;
+        margin: 1rem 0 1rem 0;
       }
 
       h3 {
-        margin: 1rem;
+        margin: 1rem 0 1rem 0;
       }
 
       h4 {
-        margin: 2rem;
+        margin: 0 0 1rem 0;
       }
     }
   }
@@ -66,18 +77,17 @@
   #about-me {
     color: white;
     background-color: #131921;
+    padding: 1.25rem;
   }
 
   .about-me-header {
-    padding: 1rem;
     text-align: left;
   }
 
   #work-experience-header {
     background-color: #131921;
     color: white;
-    padding: 1rem;
-    margin-bottom: -1rem;
+    padding: 1.25rem;
     text-align: left;
   }
 

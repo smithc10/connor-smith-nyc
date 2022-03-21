@@ -1,15 +1,22 @@
 {
+  "aboutMe": {
+    "firstParagraph": "Hello!  My name is Connor and I am a software engineer currently living in New York City.  I began my programming journey while attending the University of Arizona. I worked in a scientific research lab studying life history strategies of black widow spiders.  As I began taking more  responsibilities, I started learning programming in Python and R to conduct data analysis and visualization.",
+    "secondParagraph": "As graduation approached I started looking for a job and applied to an engineering position at American Express.  In a twist of fate, I ended up on a web engineering team instead of the data analytics team.  I have since fallen in love with software development have been professionally working in the field for 2.5 years.  In my spare time I enjoy traveling, playing guitar, playing video games with friends, and working out.",
+    "header": "About Me"
+  },
   "workExperience": {
     "americanExpress": {
       "logoUrl": "https://s1.q4cdn.com/692158879/files/images/brand_imagery/AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png",
-      "name": "American Express",
+      "name": "American Express - Software Engineer",
       "description": "Serve as an active member of an agile software development team; contributing to feature development by completing user stories via writing new/improving on existing code, creating/updating documentation, participating in code reviews, etc. Developed several reusable UI components with full comprehensive unit tests that have been implemented in several applications, saving time for other developers and expediting delivery schedules for multiple development teams",
+      "position": "Software Engineer",
       "tenure": "August 2019 - Present"
     },
     "uOfA": {
       "logoUrl": "https://phoenixmed.arizona.edu/sites/default/files/campus/marcomm/brand/master-logo/10-ua-vertical-white/ua_rev_stack_rgb_white.png",
       "name": "University of Arizona",
       "description": "Developed innovative, valid, and reliable research methods relevant to projects conducted in lab to allow for faster data procession; and trained new undergraduate students on those methods. In addition to this I also conducted statistical analysis using R, Python, SQL, and Tableau to determine, understand, and visualize relationships between variables/parameters of interest",
+      "position": "Undergraduate Researcher",
       "tenure": "April 2017 - May 2019"
     }
   }
