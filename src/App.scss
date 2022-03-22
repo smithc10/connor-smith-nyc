@@ -84,6 +84,21 @@
     text-align: left;
   }
 
+  #technical-skills-header {
+    background-color: #131921;
+    color: white;
+    padding: 1.25rem;
+    text-align: left;
+  }
+
+  .technical-skills-list {
+    color: white;
+
+    li {
+      margin: 1rem;
+    }
+  }
+
   #work-experience-header {
     background-color: #131921;
     color: white;

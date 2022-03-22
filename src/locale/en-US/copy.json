@@ -4,6 +4,13 @@
     "secondParagraph": "As graduation approached I started looking for a job and applied to an engineering position at American Express.  In a twist of fate, I ended up on a web engineering team instead of the data analytics team.  I have since fallen in love with software development have been professionally working in the field for 2.5 years.  In my spare time I enjoy traveling, playing guitar, playing video games with friends, and working out.",
     "header": "About Me"
   },
+  "technicalSkills": {
+    "header": "Technical Skills",
+    "firstListItem": "Programming Languages: ",
+    "firstListContent": "HTML, CSS, Markdown, Javascript, Typescript, RegEx, R, Bash scripting / linux",
+    "secondListItem": "Technologies: ",
+    "secondListContent": "Git, NodeJS, NPM, React, AngularJS, WebdriverIO, Storybook, CypressIO, Karma, Jest, Yup, Formik, Playwright, Jenkins, Gitlab, Material UI, Postman"
+  },
   "workExperience": {
     "americanExpress": {
       "logoUrl": "https://s1.q4cdn.com/692158879/files/images/brand_imagery/AXP_BlueBoxLogo_Alternate_REGULARscale_RGB_DIGITAL_700x700.png",

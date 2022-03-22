@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import "@fontsource/roboto";
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
+import TechnicalSkills from "./components/TechnicalSkills";
 import WorkExperience from "./components/WorkExperience";
 
 import "./App.scss";
@@ -11,7 +12,8 @@ import * as applicationText from "./locale/en-US/copy.json";
 
 const {
   workExperience: { americanExpress, uOfA },
-  aboutMe
+  aboutMe,
+  technicalSkills
 } = applicationText;
 
 function App() {
@@ -27,7 +29,15 @@ function App() {
           secondParagraph={aboutMe.secondParagraph}
         />
       </Grid>
-      <Divider light />
+      <Grid item lg={8} sm={12}>
+        <TechnicalSkills
+          header={technicalSkills.header}
+          firstListItem={technicalSkills.firstListItem}
+          firstListContent={technicalSkills.firstListContent}
+          secondListItem={technicalSkills.secondListItem}
+          secondListContent={technicalSkills.secondListContent}
+        />
+      </Grid>
       <Grid item sm={12} lg={9}>
         <section>
           <h2 id="work-experience-header">Work Experience</h2>
