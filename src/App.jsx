@@ -1,4 +1,3 @@
-import Divider from "@mui/material/Divider";
 import Grid from "@mui/material/Grid";
 
 import "@fontsource/roboto";
@@ -8,7 +7,7 @@ import TechnicalSkills from "./components/TechnicalSkills";
 import WorkExperience from "./components/WorkExperience";
 
 import "./App.scss";
-import * as applicationText from "./locale/en-US/copy.json";
+import { default as applicationText } from "./locale/en-US/copy.json";
 
 const {
   workExperience: { americanExpress, uOfA },
