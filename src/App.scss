@@ -143,3 +143,17 @@
     }
   }
 }
+
+#error-page {
+  font-family: "press Start 2P";
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .error-text {
+    padding: 1rem;
+  }
+}
